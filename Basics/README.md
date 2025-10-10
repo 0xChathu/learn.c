@@ -1,4 +1,4 @@
-# Structure of a C program
+# Hello World
 ```c
 #include <stdio.h>
 int main ()
