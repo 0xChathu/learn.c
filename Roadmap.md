@@ -23,7 +23,7 @@
 - Run valgrind and show zero leaks
 - Write a Makefile that builds and cleans your project.
   
-# 2. C Foundations — syntax, logic, and flow control
+## 2. C Foundations — syntax, logic, and flow control
 📚 Learn:
 - Data types, variables, constants, operators
 - Control structures: if, switch, loops
@@ -41,7 +41,7 @@
 - Predict output of nested loops
 - Explain = vs == clearly
   
-# 3. Pointers & Arrays — the real programming begins
+## 3. Pointers & Arrays — the real programming begins
 🧠 Learn:
 - Pointer syntax, dereferencing, referencing
 - Pointer arithmetic, arrays decay to pointers
@@ -59,7 +59,7 @@
 - Implement pointer-only string reversal
 - Explain *(arr+i) == arr[i]
   
-# 4. Memory Management — control the heap, control reality
+## 4. Memory Management — control the heap, control reality
 💾 Learn:
 - Stack vs heap
 - malloc, calloc, realloc, free
@@ -77,7 +77,7 @@
 - Detect/fix memory errors with valgrind
 - Build dynamic array that resizes properly
   
-# 5. Structs, Modular Design, and APIs
+## 5. Structs, Modular Design, and APIs
 🧩 Learn:
 - Structs, typedef, nested structs
 - Function pointers for callbacks
@@ -95,7 +95,7 @@
 - Use typedef and static/external linkage correctly
 - Implement and test a struct-based module
   
-# 6. Algorithms & Data Structures
+## 6. Algorithms & Data Structures
 ⚙️ Learn:
 - Sorting: bubble, insertion, quicksort, mergesort
 - Searching: linear & binary search
@@ -114,7 +114,7 @@
 - Analyze runtime complexity
 - Trace recursive functions correctly
   
-# 7. File I/O and CLI Interaction
+## 7. File I/O and CLI Interaction
 📁 Learn:
 - fopen, fread, fwrite, fseek, fclose
 - Text vs binary mode
@@ -132,7 +132,7 @@
 - Handle invalid input and errors
 - Parse CSV correctly
   
-# 8. Debugging, Testing & Tooling Proficiency
+## 8. Debugging, Testing & Tooling Proficiency
 🔍 Learn:
 - Debug with gdb
 - Memory checking with valgrind
@@ -149,7 +149,7 @@
 - Validate memory safety
 - Write testable modular code
   
-# 9. Systems Programming (Optional Elite)
+## 9. Systems Programming (Optional Elite)
 🔌 Learn:
 - Threads with pthread, mutexes
 - fork(), execvp(), wait()
@@ -165,7 +165,7 @@
 - Implement threaded/networked programs
 - Trace process/thread behavior
   
-#10. Capstone Projects
+## 10. Capstone Projects
 🏁 Choose 1–2:
 - Tiny Shell
 - Mini Database
@@ -183,7 +183,7 @@ Each must:
 - Program is fully modular, safe, and testable
 - Demonstrates mastery of all previous topics
   
-# Final Readiness — Move to Python
+## Final Readiness — Move to Python
 🚀 You’re ready if:
 - You can implement & debug full data structures
 - Fix memory issues with gdb & valgrind
