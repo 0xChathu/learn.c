@@ -2,7 +2,7 @@
 
 #### This is a complete, coherent, and practical roadmap to mastering C programming. It outlines exactly what to learn, what to do, and how to verify mastery before transitioning to Python. Each section builds your ability to think like a systems programmer.
 
-# 1. Tooling & Environment — build your arsenal first
+## 1. Tooling & Environment — build your arsenal first
 🛠️ Learn:
 - How compilation works: preprocessing → compilation → linking → execution
 - gcc/clang flags (-Wall, -Wextra, -Werror, -g)
