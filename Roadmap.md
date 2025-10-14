@@ -1,7 +1,8 @@
-C Programming Mastery Guide — learn.c
-This is a complete, coherent, and practical roadmap to mastering C programming. It outlines exactly what to learn, what to do, and how to verify mastery before transitioning to Python. Each section builds your ability to think like a systems programmer.
+# C Programming Mastery Guide — learn.c
 
-#1. Tooling & Environment — build your arsenal first
+## This is a complete, coherent, and practical roadmap to mastering C programming. It outlines exactly what to learn, what to do, and how to verify mastery before transitioning to Python. Each section builds your ability to think like a systems programmer.
+
+# 1. Tooling & Environment — build your arsenal first
 🛠️ Learn:
 - How compilation works: preprocessing → compilation → linking → execution
 - gcc/clang flags (-Wall, -Wextra, -Werror, -g)
@@ -21,8 +22,8 @@ This is a complete, coherent, and practical roadmap to mastering C programming. 
 - Debug a segfault with gdb
 - Run valgrind and show zero leaks
 - Write a Makefile that builds and cleans your project.
-- 
-#2. C Foundations — syntax, logic, and flow control
+  
+# 2. C Foundations — syntax, logic, and flow control
 📚 Learn:
 - Data types, variables, constants, operators
 - Control structures: if, switch, loops
@@ -39,8 +40,8 @@ This is a complete, coherent, and practical roadmap to mastering C programming. 
 - Write a small program confidently using loops/functions
 - Predict output of nested loops
 - Explain = vs == clearly
-- 
-#3. Pointers & Arrays — the real programming begins
+  
+# 3. Pointers & Arrays — the real programming begins
 🧠 Learn:
 - Pointer syntax, dereferencing, referencing
 - Pointer arithmetic, arrays decay to pointers
@@ -58,7 +59,7 @@ This is a complete, coherent, and practical roadmap to mastering C programming. 
 - Implement pointer-only string reversal
 - Explain *(arr+i) == arr[i]
   
-#4. Memory Management — control the heap, control reality
+# 4. Memory Management — control the heap, control reality
 💾 Learn:
 - Stack vs heap
 - malloc, calloc, realloc, free
@@ -76,7 +77,7 @@ This is a complete, coherent, and practical roadmap to mastering C programming. 
 - Detect/fix memory errors with valgrind
 - Build dynamic array that resizes properly
   
-#5. Structs, Modular Design, and APIs
+# 5. Structs, Modular Design, and APIs
 🧩 Learn:
 - Structs, typedef, nested structs
 - Function pointers for callbacks
@@ -94,7 +95,7 @@ This is a complete, coherent, and practical roadmap to mastering C programming. 
 - Use typedef and static/external linkage correctly
 - Implement and test a struct-based module
   
-#6. Algorithms & Data Structures
+# 6. Algorithms & Data Structures
 ⚙️ Learn:
 - Sorting: bubble, insertion, quicksort, mergesort
 - Searching: linear & binary search
@@ -113,7 +114,7 @@ This is a complete, coherent, and practical roadmap to mastering C programming. 
 - Analyze runtime complexity
 - Trace recursive functions correctly
   
-#7. File I/O and CLI Interaction
+# 7. File I/O and CLI Interaction
 📁 Learn:
 - fopen, fread, fwrite, fseek, fclose
 - Text vs binary mode
@@ -131,7 +132,7 @@ This is a complete, coherent, and practical roadmap to mastering C programming. 
 - Handle invalid input and errors
 - Parse CSV correctly
   
-#8. Debugging, Testing & Tooling Proficiency
+# 8. Debugging, Testing & Tooling Proficiency
 🔍 Learn:
 - Debug with gdb
 - Memory checking with valgrind
@@ -148,7 +149,7 @@ This is a complete, coherent, and practical roadmap to mastering C programming. 
 - Validate memory safety
 - Write testable modular code
   
-#9. Systems Programming (Optional Elite)
+# 9. Systems Programming (Optional Elite)
 🔌 Learn:
 - Threads with pthread, mutexes
 - fork(), execvp(), wait()
@@ -181,7 +182,8 @@ Each must:
 - Build, document, and defend design choices
 - Program is fully modular, safe, and testable
 - Demonstrates mastery of all previous topics
-Final Readiness — Move to Python
+  
+# Final Readiness — Move to Python
 🚀 You’re ready if:
 - You can implement & debug full data structures
 - Fix memory issues with gdb & valgrind
